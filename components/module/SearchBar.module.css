@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 0.5rem;
+  max-width: fit-content;
+  background-color: greenyellow;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.inputs input {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  border-bottom: 1px solid transparent;
+}
+.inputs input:focus {
+  border-bottom: 1px solid black;
+}
+
+.inputWrapper button {
+  border: none;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
